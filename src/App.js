@@ -13,7 +13,7 @@ function App() {
   ];
 
   const getRecommendations = async () => {
-    const response = await fetch("ai-recommendation-alpha.vercel.app/recommend", {
+    const response = await fetch("https://ai-recommendation-alpha.vercel.app/recommend", {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
