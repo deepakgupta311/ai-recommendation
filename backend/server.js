@@ -4,7 +4,7 @@ const cors = require("cors");
 const app = express();
 app.use(
     cors({
-      origin: "http://localhost:3000",
+      origin: "https://ai-recommendation-kk1u.vercel.app",
       methods: ["GET", "POST"],
       allowedHeaders: ["Content-Type"]
     })
